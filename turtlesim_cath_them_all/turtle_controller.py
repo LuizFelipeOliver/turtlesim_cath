@@ -58,7 +58,7 @@ def main(args=None):
     rclpy.init(args=args)
     node = TurtleControllerNode()
     rclpy.spin(node)
-    rclpy.shutdown()
+    rclpy.shutdown();
 
 
 if __name__ == "__main__":
